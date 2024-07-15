@@ -11,3 +11,5 @@ class TestSum(unittest.TestCase):
     def test_sum2(self):
         result = my_tool.sum(0, 0)
         self.assertEqual(result,0)
+
+        result = my_tool.sum(0, -1)
